@@ -1,9 +1,27 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
 
+* {
+    box-sizing: border-box;
+}
+
 body {
     margin: 0;
     font-family: 'Montserrat', sans-serif;
+    
 }
+
+.container {
+    width: 1110px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(17, 146, 125);
+}
+
+.none {
+    display: none !important;
+}
+
+/*HEADER*/
 
 .header {
     display: flex;
@@ -42,4 +60,51 @@ body {
 .header-arrow {
     position: absolute;
     bottom: 25px;
+}
+
+/*PORTFOLIO*/
+
+.portfolio {
+    background-color: rgb(90, 24, 24);
+    padding-top: 85px;
+    padding-bottom: 115px;
+}
+
+.portfolio-header {
+    font-weight: 700;
+    font-size: 46px;
+    line-height: 130%;
+    text-align: center;
+    color: #000;
+}
+
+img {
+    width: 500px;
+    height: 240px;
+}
+
+.card {
+    background-color: #fff;
+    max-width: 540px;
+    padding: 20px;
+}
+
+.card-img {
+    margin-bottom: 20px;
+}
+
+.cart-title {
+    margin: 0;
+    margin-bottom: 13px;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 130%;
+    color: #000;
+}
+
+.card p {
+    margin: 0;
+    font-size: 16px;
+    line-height: 130%;
+    color: #000;
 }
