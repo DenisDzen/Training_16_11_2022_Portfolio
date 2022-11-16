@@ -121,3 +121,27 @@ img {
     color: #000;
 }
 
+/*FOOTER*/
+
+.footer {
+    padding-top: 48px;
+    padding-bottom: 130px;
+    background-color: #1e4776;
+    color: #fff;
+}
+
+.footer-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.footer-copyright {
+    color: #7e9ec9;
+}
+
+.footer-copyright-name {
+    font-size: 28px;
+    line-height: 130%;
+    font-weight: 700;
+}
